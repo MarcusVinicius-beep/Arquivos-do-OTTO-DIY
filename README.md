@@ -1,4 +1,4 @@
-# Arquivos-do-OTTO-DIY
+# Arquivos-do-Projeto-de-Informática
 # Projeto Aplicado à Engenharia - Equipe [MMM's]
 
 Este repositório contém os projetos desenvolvidos pela equipe durante as unidades da disciplina de Informática.
