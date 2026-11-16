@@ -1,13 +1,15 @@
-# Arquivos-do-Projeto-de-Informática
-# Projeto Aplicado à Engenharia - Equipe [MMM's]
+# Modelagem Logística de Grua com Redes de Petri Coloridas (CPN)
 
-Este repositório contém os projetos desenvolvidos pela equipe durante as unidades da disciplina de Informática.
+Projeto desenvolvido para a disciplina de Informática Aplicada à Engenharia Civil (Equipe MMM - 2026.2).
 
-## 🏗️ Unidade 2: Projeto da Grua (Atual)
-Breve descrição da grua que vocês vão construir. 
-- **Objetivo:** (Ex: Desenvolver uma grua automatizada para movimentação de cargas leves utilizando motores X).
-- **Aplicações na Engenharia:** (Ex: Simulação de logística portuária ou construção civil).
+## Estrutura do Repositório
+* `/modelo_1_basico`: Primeira modelagem em Rede de Petri.
+* `/modelo_2_grua_avancado`: Rede de Petri Colorida Temporizada (`Projeto_GRUA_equipe_MMM_2026_2.cpn`) com curva de carga, controle climático e cálculo de tempo de ciclo.
+* `/evidencias`: Capturas de tela da validação e da simulação executada no CPN IDE.
+* `/documentacao`: Relatório técnico completo em PDF.
 
-## 🤖 Unidade 1: Robô Otto (Legado)
-Espaço dedicado ao armazenamento dos arquivos do projeto anterior.
-- O robô Otto foi desenvolvido com foco em [introdução à robótica/Arduino].
+## Recursos Implementados no Modelo 2 (CPN ML)
+* **6 Colorsets:** `MATERIAL`, `PESO`, `SETOR`, `VENTO`, `CARGA` e `STATUS_GRUA`.
+* **4 Variáveis:** `m`, `p`, `s` e `v`.
+* **2 Funções de Engenharia:** `capacidade_ok(p, s)` (validação de momento fletor por raio de alcance) e `tempo_ciclo(p, s)` (cálculo dinâmico de duração da operação).
+*
