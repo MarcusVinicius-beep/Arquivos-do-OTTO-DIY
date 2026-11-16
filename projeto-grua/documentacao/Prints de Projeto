@@ -1,0 +1,16 @@
+# 1. Clonar o repositório para sua máquina
+git clone https://github.com/usuario/nome-do-repositorio.git
+
+# 2. Entrar na pasta do repositório
+cd nome-do-repositorio
+
+# 3. Criar a nova pasta
+mkdir minha-nova-pasta
+
+# 4. Criar um arquivo dentro da pasta (necessário para o Git rastrear)
+echo "Conteúdo inicial" > minha-nova-pasta/README.md
+
+# 5. Adicionar e enviar para o GitHub
+git add minha-nova-pasta/README.md
+git commit -m "Criando nova pasta com README"
+git push origin main
